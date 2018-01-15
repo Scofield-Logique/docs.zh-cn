@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 11/18/2017
 ---
 # <a name="private-protected-c-reference"></a>私有受保护 （C# 参考）
-`private protected`关键字组合都是成员访问修饰符。 由派生自包含的类，但仅在其包含的程序集中的类型可进行访问私有受保护的成员。 有关 `private protected` 和其他访问修饰符的比较，请参阅[可访问性级别](../../../csharp/language-reference/keywords/accessibility-levels.md)。 
+`private protected`这个关键字组合是一个成员访问修饰符。用此修饰符修饰的成员，只能被派生自该成员所在类、并且在同一个程序集的class所使用(相同于CLR的family and assembly)。 有关 `private protected` 和其他访问修饰符的比较，请参阅[可访问性级别](../../../csharp/language-reference/keywords/accessibility-levels.md)。 
    
 ## <a name="example"></a>示例  
  变量的静态类型是派生的类类型，基类的私有受保护的成员才可从其包含的程序集中的派生类型访问。 以下面的代码段为例：  
